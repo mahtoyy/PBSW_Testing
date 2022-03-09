@@ -32,13 +32,13 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "DeleteBooking",
 			"event": [
 				{
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 200\", function () {\r",
+							"pm.test(\"Status code is 204\", function () {\r",
 							"    pm.response.to.have.status(204);\r",
 							"});"
 						],
@@ -59,7 +59,7 @@
 					}
 				},
 				"url": {
-					"raw": "https://localhost:5001/bookings/2",
+					"raw": "https://localhost:5001/bookings/1",
 					"protocol": "https",
 					"host": [
 						"localhost"
@@ -67,7 +67,7 @@
 					"port": "5001",
 					"path": [
 						"bookings",
-						"2"
+						"1"
 					]
 				}
 			},
