@@ -52,3 +52,4 @@ steps:
   displayName: Run Postman tests
   inputs:
     script: 'newman run $(Build.SourcesDirectory)/Postman/HotelBooking.postman_collection.json -k -r cli'
+    script: 'newman run $(Build.SourcesDirectory)/Postman/PBSW_Testing.postman_collection.json -k -r cli'
