@@ -53,8 +53,8 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Status code is 409\", function () {\r",
-							"    pm.response.to.have.status(409);\r",
+							"pm.test(\"Status code is 500, internal server error\", function () {\r",
+							"    pm.response.to.have.status(500);\r",
 							"});"
 						],
 						"type": "text/javascript"
