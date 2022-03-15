@@ -31,7 +31,9 @@ namespace HotelBooking.UnitTests
         {
             var data = new List<object[]>
             {
-                new object[] { start.AddDays(10),end.AddDays(20) }
+                new object[] { start.AddDays(10),end.AddDays(20) },
+                new object[] { start.AddDays(10),end.AddDays(29) },
+                new object[] { start.AddDays(14),end.AddDays(19) }
             };
 
             return data;
@@ -41,7 +43,29 @@ namespace HotelBooking.UnitTests
         {
             var data = new List<object[]>
             {
-                new object[] { start.AddDays(1),end.AddDays(3) }
+                new object[] { start.AddDays(1),end.AddDays(3) },
+                new object[] { start.AddDays(5),end.AddDays(8) },
+                new object[] { start.AddDays(4),end.AddDays(6) }
+            };
+
+            return data;
+        }
+
+        public static IEnumerable<object[]> ThrowArgumentExpection()
+        {
+            var data = new List<object[]>
+            {
+                new object[] { start,start }
+            };
+
+            return data;
+        }
+
+        public static IEnumerable<object[]> IdNotInMinus()
+        {
+            var data = new List<object[]>
+            {
+                new object[] { start.AddDays(1),start.AddDays(1) }
             };
 
             return data;

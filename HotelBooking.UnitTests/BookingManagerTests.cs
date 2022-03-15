@@ -12,21 +12,23 @@ namespace HotelBooking.UnitTests
         private IBookingManager bookingManager;
         private Mock<IRepository<Room>> fakeRoomRepository;
         private Mock<IRepository<Booking>> fakeBookingRepository;
+        private DateTime start;
+        private DateTime end;
 
         public BookingManagerTests(){
-            DateTime start = DateTime.Now.Date.AddDays(10);
-            DateTime end = DateTime.Now.Date.AddDays(20);
+            start = DateTime.Now.Date.AddDays(10);
+            end = DateTime.Now.Date.AddDays(20);
 
             var rooms = new List<Room>
             {
                 new Room { Id=1, Description="A" },
-                new Room { Id=2, Description="B" },
+                new Room { Id=2, Description="B" }
             };
 
             var bookings = new List<Booking>
             {
-                new Booking { Id=1, StartDate=start, EndDate=start, IsActive=true, CustomerId=1, RoomId=1 },
-                new Booking { Id=2, StartDate=start, EndDate=start, IsActive=true, CustomerId=2, RoomId=2 },
+                new Booking { Id=1, StartDate=start, EndDate=end, IsActive=true, CustomerId=1, RoomId=1 },
+                new Booking { Id=2, StartDate=start, EndDate=end, IsActive=true, CustomerId=2, RoomId=2 }
             };
 
             fakeRoomRepository = new Mock<IRepository<Room>>();
@@ -58,28 +60,36 @@ namespace HotelBooking.UnitTests
             Assert.False(result);
         }
 
-        [Fact]
-        public void FindAvailableRoom_StartDateNotInTheFuture_ThrowsArgumentException()
+        [Theory]
+        [MemberData(nameof(DateTimeProvider.ThrowArgumentExpection), MemberType =typeof(DateTimeProvider))]
+        public void FindAvailableRoom_StartDateNotInTheFuture_ThrowsArgumentExceptionm(DateTime start, DateTime end)
         {
-            // Arrange
-            DateTime date = DateTime.Today;
-
-            // Act
-            Action act = () => bookingManager.FindAvailableRoom(date, date);
-
-            // Assert
+            Action act = () => bookingManager.FindAvailableRoom(start, end);
             Assert.Throws<ArgumentException>(act);
         }
 
-        [Fact]
-        public void FindAvailableRoom_RoomAvailable_RoomIdNotMinusOne()
+        [Theory]
+        [MemberData(nameof(DateTimeProvider.IdNotInMinus), MemberType = typeof(DateTimeProvider))]
+        public void FindAvailableRoom_RoomAvailable_RoomIdNotMinusOne(DateTime start, DateTime end)
         {
-            // Arrange
-            DateTime date = DateTime.Today.AddDays(1);
-            // Act
-            int roomId = bookingManager.FindAvailableRoom(date, date);
-            // Assert
-            Assert.NotEqual(-1, roomId);
+            int act = bookingManager.FindAvailableRoom(start, end);
+            Assert.NotEqual(-1, act);
+        }
+
+        [Fact]
+        public void FindAvailableRoom_RoomAvailable_GetAllIsCalled()
+        {
+            bookingManager.FindAvailableRoom(start, end);
+
+            fakeBookingRepository.Verify(x => x.GetAll(), Times.Once);
+        }
+
+        [Fact]
+        public void GetFullyOccupiedDates_OccupiedRoomsForPeriod_ReturnList()
+        {
+            var list = bookingManager.GetFullyOccupiedDates(start,end);
+            Assert.NotEmpty(list);
+
         }
 
     }
