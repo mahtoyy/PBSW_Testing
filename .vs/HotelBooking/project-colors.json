@@ -30,7 +30,22 @@
       "ProjectGuid": "2a98b98e-16d8-4f8d-a2d2-e4c4377cbb30",
       "DisplayName": "HotelBooking.WebApi",
       "ColorIndex": 5
+    },
+    "8f339ce9-df67-4294-b341-cfd3d62d4fba": {
+      "ProjectGuid": "8f339ce9-df67-4294-b341-cfd3d62d4fba",
+      "DisplayName": "SpecFlowCreateBooking.Specs",
+      "ColorIndex": 6
+    },
+    "6773b00d-699c-40fd-89d6-e6fc5575ff7b": {
+      "ProjectGuid": "6773b00d-699c-40fd-89d6-e6fc5575ff7b",
+      "DisplayName": "SpecFlowCalculator",
+      "ColorIndex": 7
+    },
+    "fe6b987f-c23f-45ce-a12a-ef178c94388d": {
+      "ProjectGuid": "fe6b987f-c23f-45ce-a12a-ef178c94388d",
+      "DisplayName": "SpecFlowCalculator.Specs",
+      "ColorIndex": 8
     }
   },
-  "NextColorIndex": 6
+  "NextColorIndex": 9
 }
