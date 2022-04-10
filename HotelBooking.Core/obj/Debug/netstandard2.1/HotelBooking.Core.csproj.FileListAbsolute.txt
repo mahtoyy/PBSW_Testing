@@ -8,3 +8,13 @@ C:\Users\Martin Banov\Desktop\sydvest\Testing\PBSW_Testing\HotelBooking.Core\obj
 C:\Users\Martin Banov\Desktop\sydvest\Testing\PBSW_Testing\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.csproj.CoreCompileInputs.cache
 C:\Users\Martin Banov\Desktop\sydvest\Testing\PBSW_Testing\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.dll
 C:\Users\Martin Banov\Desktop\sydvest\Testing\PBSW_Testing\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.pdb
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Core\bin\Debug\netstandard2.1\HotelBooking.Core.deps.json
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Core\bin\Debug\netstandard2.1\HotelBooking.Core.dll
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Core\bin\Debug\netstandard2.1\HotelBooking.Core.pdb
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.csproj.AssemblyReference.cache
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.AssemblyInfoInputs.cache
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.AssemblyInfo.cs
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.csproj.CoreCompileInputs.cache
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.dll
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Core\obj\Debug\netstandard2.1\HotelBooking.Core.pdb

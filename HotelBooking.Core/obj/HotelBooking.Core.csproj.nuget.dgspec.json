@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj": {}
+    "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj": {
+    "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj",
+        "projectUniqueName": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj",
         "projectName": "HotelBooking.Core",
-        "projectPath": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj",
-        "packagesPath": "C:\\Users\\Martin Banov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.Core\\obj\\",
+        "projectPath": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj",
+        "packagesPath": "C:\\Users\\tiham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Martin Banov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tiham\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

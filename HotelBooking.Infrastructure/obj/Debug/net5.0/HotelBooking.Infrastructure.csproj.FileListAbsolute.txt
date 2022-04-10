@@ -13,3 +13,18 @@ C:\Users\Martin Banov\Desktop\sydvest\Testing\PBSW_Testing\HotelBooking.Infrastr
 C:\Users\Martin Banov\Desktop\sydvest\Testing\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\HotelBooking.Infrastructure.dll
 C:\Users\Martin Banov\Desktop\sydvest\Testing\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\ref\HotelBooking.Infrastructure.dll
 C:\Users\Martin Banov\Desktop\sydvest\Testing\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\HotelBooking.Infrastructure.pdb
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\bin\Debug\net5.0\HotelBooking.Infrastructure.deps.json
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\bin\Debug\net5.0\HotelBooking.Infrastructure.dll
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\bin\Debug\net5.0\ref\HotelBooking.Infrastructure.dll
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\bin\Debug\net5.0\HotelBooking.Infrastructure.pdb
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\bin\Debug\net5.0\HotelBooking.Core.dll
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\bin\Debug\net5.0\HotelBooking.Core.pdb
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\HotelBooking.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\HotelBooking.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\HotelBooking.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\HotelBooking.Infrastructure.AssemblyInfo.cs
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\HotelBooking.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\HotelBooking.Infrastructure.csproj.CopyComplete
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\HotelBooking.Infrastructure.dll
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\ref\HotelBooking.Infrastructure.dll
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\HotelBooking.Infrastructure\obj\Debug\net5.0\HotelBooking.Infrastructure.pdb

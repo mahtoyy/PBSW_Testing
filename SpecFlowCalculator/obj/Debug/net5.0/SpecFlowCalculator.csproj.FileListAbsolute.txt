@@ -1,0 +1,11 @@
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\SpecFlowCalculator\bin\Debug\net5.0\SpecFlowCalculator.deps.json
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\SpecFlowCalculator\bin\Debug\net5.0\SpecFlowCalculator.dll
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\SpecFlowCalculator\bin\Debug\net5.0\ref\SpecFlowCalculator.dll
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\SpecFlowCalculator\bin\Debug\net5.0\SpecFlowCalculator.pdb
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\SpecFlowCalculator\obj\Debug\net5.0\SpecFlowCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\SpecFlowCalculator\obj\Debug\net5.0\SpecFlowCalculator.AssemblyInfoInputs.cache
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\SpecFlowCalculator\obj\Debug\net5.0\SpecFlowCalculator.AssemblyInfo.cs
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\SpecFlowCalculator\obj\Debug\net5.0\SpecFlowCalculator.csproj.CoreCompileInputs.cache
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\SpecFlowCalculator\obj\Debug\net5.0\SpecFlowCalculator.dll
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\SpecFlowCalculator\obj\Debug\net5.0\ref\SpecFlowCalculator.dll
+C:\Users\tiham\Desktop\SchoolStuff\TestClass\PBSW_Testing\SpecFlowCalculator\obj\Debug\net5.0\SpecFlowCalculator.pdb
