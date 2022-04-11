@@ -8569,19 +8569,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tiham\\.nuget\\packages\\": {}
+    "C:\\Users\\Martin Banov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.UnitTests\\HotelBooking.UnitTests.csproj",
+      "projectUniqueName": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.UnitTests\\HotelBooking.UnitTests.csproj",
       "projectName": "HotelBooking.UnitTests",
-      "projectPath": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.UnitTests\\HotelBooking.UnitTests.csproj",
-      "packagesPath": "C:\\Users\\tiham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.UnitTests\\obj\\",
+      "projectPath": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.UnitTests\\HotelBooking.UnitTests.csproj",
+      "packagesPath": "C:\\Users\\Martin Banov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.UnitTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tiham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Martin Banov\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8595,11 +8595,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj": {
-              "projectPath": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj"
+            "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj": {
+              "projectPath": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.Core\\HotelBooking.Core.csproj"
             },
-            "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.WebApi\\HotelBooking.WebApi.csproj": {
-              "projectPath": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\HotelBooking.WebApi\\HotelBooking.WebApi.csproj"
+            "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.WebApi\\HotelBooking.WebApi.csproj": {
+              "projectPath": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\HotelBooking.WebApi\\HotelBooking.WebApi.csproj"
             }
           }
         }
@@ -8648,7 +8648,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

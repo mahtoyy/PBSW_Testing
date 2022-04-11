@@ -31,6 +31,7 @@
       "DisplayName": "HotelBooking.WebApi",
       "ColorIndex": 5
     },
+<<<<<<< HEAD
     "8f339ce9-df67-4294-b341-cfd3d62d4fba": {
       "ProjectGuid": "8f339ce9-df67-4294-b341-cfd3d62d4fba",
       "DisplayName": "SpecFlowCreateBooking.Specs",
@@ -48,4 +49,13 @@
     }
   },
   "NextColorIndex": 9
+=======
+    "110286ed-4d84-4a14-9b9d-9ea29f6ca857": {
+      "ProjectGuid": "110286ed-4d84-4a14-9b9d-9ea29f6ca857",
+      "DisplayName": "HotelBooking.SpecFlow",
+      "ColorIndex": 6
+    }
+  },
+  "NextColorIndex": 7
+>>>>>>> b143fcf (added specflow support and test cases)
 }

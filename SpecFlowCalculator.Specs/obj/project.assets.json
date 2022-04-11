@@ -6837,19 +6837,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tiham\\.nuget\\packages\\": {}
+    "C:\\Users\\Martin Banov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\SpecFlowCalculator.Specs\\SpecFlowCalculator.Specs.csproj",
+      "projectUniqueName": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\SpecFlowCalculator.Specs\\SpecFlowCalculator.Specs.csproj",
       "projectName": "SpecFlowCalculator.Specs",
-      "projectPath": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\SpecFlowCalculator.Specs\\SpecFlowCalculator.Specs.csproj",
-      "packagesPath": "C:\\Users\\tiham\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\SpecFlowCalculator.Specs\\obj\\",
+      "projectPath": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\SpecFlowCalculator.Specs\\SpecFlowCalculator.Specs.csproj",
+      "packagesPath": "C:\\Users\\Martin Banov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\SpecFlowCalculator.Specs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tiham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Martin Banov\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6863,8 +6863,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\SpecFlowCalculator\\SpecFlowCalculator.csproj": {
-              "projectPath": "C:\\Users\\tiham\\Desktop\\SchoolStuff\\TestClass\\PBSW_Testing\\SpecFlowCalculator\\SpecFlowCalculator.csproj"
+            "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\SpecFlowCalculator\\SpecFlowCalculator.csproj": {
+              "projectPath": "C:\\Users\\Martin Banov\\Desktop\\sydvest\\Testing\\PBSW_Testing\\SpecFlowCalculator\\SpecFlowCalculator.csproj"
             }
           }
         }
@@ -6919,7 +6919,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
