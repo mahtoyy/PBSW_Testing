@@ -16,7 +16,7 @@ namespace HotelBooking.SpecFlow.StepDefinitions
         Mock<IRepository<Room>> fakeRoomRepository;
         Mock<IRepository<Booking>> fakeBookingRepository;
         bool result;
-
+        Action act;
         public CreateBookingStepDefinitions()
         {
             start = DateTime.Now.Date.AddDays(10);
@@ -62,13 +62,26 @@ namespace HotelBooking.SpecFlow.StepDefinitions
         [When("the two dates are submitted")]
         public void WhenTheTwoNumbersAreAdded()
         {
-            result = bookingManager.CreateBooking(new Booking { StartDate=startdate, EndDate=enddate });
+            try
+            {
+                result = bookingManager.CreateBooking(new Booking { StartDate = startdate, EndDate = enddate });
+            }catch (Exception ex)
+            {
+
+            }
+            this.act = () => bookingManager.CreateBooking(new Booking { StartDate = startdate, EndDate = enddate });
         }
 
         [Then("the result should be (.*)")]
         public void ThenTheResultShouldBe(bool result)
         {
             Assert.Equal(result,this.result);
+        }
+
+        [Then("exception is thrown")]
+        public void ThenExceptionIsThrown() 
+        {
+            Assert.Throws<ArgumentException>(this.act);
         }
     }
 }
