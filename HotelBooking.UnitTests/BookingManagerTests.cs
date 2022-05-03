@@ -92,5 +92,34 @@ namespace HotelBooking.UnitTests
 
         }
 
+        [Fact]
+        public void GetFullyOccupiedDates_EdgeCoverageTest1_ThrowException()
+        {
+            Action act = () => bookingManager.GetFullyOccupiedDates(end, start);
+            Assert.Throws<ArgumentException>(act);
+        }
+
+        [Fact]
+        public void GetFullyOccupiedDates_EdgeCoverageTest2_ReturnEmptyList()
+        {
+            var list = bookingManager.GetFullyOccupiedDates(start.AddDays(15), end.AddDays(15));
+            Assert.Empty(list);
+        }
+
+        [Fact]
+        public void GetFullyOccupiedDates_EdgeCoverageTest3_ReturnList()
+        {
+            var list = bookingManager.GetFullyOccupiedDates(start, end);
+            Assert.NotEmpty(list);
+        }
+
+        [Fact]
+        public void GetFullyOccupiedDates_EdgeCoverageTest4_ReturnEmptyList()
+        {
+            fakeBookingRepository.Setup(x => x.GetAll()).Returns(new List<Booking>());
+            var list = bookingManager.GetFullyOccupiedDates(start, end);
+            Assert.Empty(list);
+        }
+
     }
 }
